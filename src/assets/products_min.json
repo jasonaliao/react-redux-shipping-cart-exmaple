@@ -1,0 +1,172 @@
+[
+    {
+        "Handle": "basic-gilet-navy",
+        "Title": "Basic Gilet in Navy",
+        "Body": "<meta charset=\"utf-8\">\n<p><span>A lightweight sleeveless v-neck sweater with raised back seam is designed to keep your look simple and classic. Perfect accompaniment to a robust jacket or blazer. Color Navy.  50% Wool, 30% Silk. Made in Italy. </span><em>Addis is wearing an Italian 50. </em><em><em>Addis is 6’2”, Chest 38.5”, Waist 31”, Inseam 32”.</em></em></p>",
+        "Vendor": "Mauro Grifoni",
+        "Type": "men's knits",
+        "Tags": "F14, Knitwear, Man, Mauro Grifoni, Men's, SALE, SALE30, Silk, Sleeveless, Sweater, top, tops, V-Neck, visible, Wool",
+        "Price": 198,
+        "ImageSrc": "/img/product1_1.jpeg",
+        "ImageAltText": "",
+        "ImageGallery": [
+            {
+                "ImageSrc": "/img/product1_1.jpeg",
+                "ImageSrcAltText": "basic-gilet-navy-1"
+            },
+            {
+                "ImageSrc": "/img/product1_2.jpeg",
+                "ImageSrcAltText": "basic-gilet-navy-2"
+            },
+            {
+                "ImageSrc": "/img/product1_3.jpeg",
+                "ImageSrcAltText": "basic-gilet-navy-3"
+            },
+            {
+                "ImageSrc": "/img/product1_4.jpeg",
+                "ImageSrcAltText": "basic-gilet-navy-4"
+            }
+        ]
+    },
+    {
+        "Handle": "alex-twill-pant-sand",
+        "Title": "Alex Twill Pant in Sand",
+        "Body": "<p><em>This is a demonstration store. You can purchase products like this from <a href=\"http://babyandco.us/\" target=\"_blank\">Baby &amp; Company</a></em></p><p><span style=\"line-height: 1.4;\">Richly dyed cotton sets off cleanly styled, incredibly soft pants cut with a straight leg and classic five-pocket style by Homecore. Color Sand. 98% Cotton, 2% Lycra. Made in Portugal. <em>Jacob os wearing a 34.</em></span></p>",
+        "Vendor": "Homecore",
+        "Type": "men's trousers",
+        "Tags": "03/20, AW15, bottoms, homecore, man, newman, pants, sand, Shot 3/30, signature",
+        "Price": 228,
+        "ImageSrc": "/img/product2_1.jpeg",
+        "ImageAltText": "",
+        "ImageGallery": [
+            {
+                "ImageSrc": "/img/product2_1.jpeg",
+                "ImageSrcAltText": "basic-gilet-navy-1"
+            },
+            {
+                "ImageSrc": "/img/product2_2.jpeg",
+                "ImageSrcAltText": "basic-gilet-navy-2"
+            },
+            {
+                "ImageSrc": "/img/product2_3.jpeg",
+                "ImageSrcAltText": "basic-gilet-navy-3"
+            },
+            {
+                "ImageSrc": "/img/product2_4.jpeg",
+                "ImageSrcAltText": "basic-gilet-navy-4"
+            },
+            {
+                "ImageSrc": "/img/product2_5.jpeg",
+                "ImageSrcAltText": "basic-gilet-navy-4"
+            }
+        ]
+    },
+    {
+        "Handle": "the-scout-skincare-kit",
+        "Title": "The Scout Skincare Kit",
+        "Body": "<p><em>This is a demonstration store. You can purchase products like this from <a href=\"http://unitedbyblue.com/\" target=\"_blank\">United By Blue</a>.</em></p><meta charset=\"utf-8\">\n<p><span>A collection of the best Ursa Major has to offer! \"The Scout\" kit contains travel sizes of their best selling skin care items including: </span></p>\n<ul>\n<li><span style=\"line-height: 1.4;\">Face Wash (2 fl oz)</span></li>\n<li><span style=\"line-height: 1.4;\">Shave Cream (2 fl oz)</span></li>\n<li><span style=\"line-height: 1.4;\">Face Balm (0.5 fl oz)</span></li>\n<li><span style=\"line-height: 1.4;\">5 tonic-infused bamboo Face Wipes</span></li>\n</ul>\n<p><span>All wrapped together in a great, reusable tin.</span><span class=\"aam\"> </span></p>",
+        "Vendor": "Ursa Major",
+        "Type": "Accessories",
+        "Tags": "",
+        "Price": 36,
+        "ImageSrc": "/img/product3_1.jpeg",
+        "ImageAltText": "",
+        "ImageGallery": [
+            {
+                "ImageSrc": "/img/product3_1.jpeg",
+                "ImageSrcAltText": "basic-gilet-navy-1"
+            },
+            {
+                "ImageSrc": "/img/product3_2.jpeg",
+                "ImageSrcAltText": "basic-gilet-navy-2"
+            },
+            {
+                "ImageSrc": "/img/product3_3.jpeg",
+                "ImageSrcAltText": "basic-gilet-navy-3"
+            },
+            {
+                "ImageSrc": "/img/product3_4.jpeg",
+                "ImageSrcAltText": "basic-gilet-navy-4"
+            }
+        ]
+    },
+    {
+        "Handle": "the-scout-skincare-kit",
+        "Title": "The Scout Skincare Kit",
+        "Body": "<p><em>This is a demonstration store. You can purchase products like this from <a href=\"http://unitedbyblue.com/\" target=\"_blank\">United By Blue</a>.</em></p><meta charset=\"utf-8\">\n<p><span>A collection of the best Ursa Major has to offer! \"The Scout\" kit contains travel sizes of their best selling skin care items including: </span></p>\n<ul>\n<li><span style=\"line-height: 1.4;\">Face Wash (2 fl oz)</span></li>\n<li><span style=\"line-height: 1.4;\">Shave Cream (2 fl oz)</span></li>\n<li><span style=\"line-height: 1.4;\">Face Balm (0.5 fl oz)</span></li>\n<li><span style=\"line-height: 1.4;\">5 tonic-infused bamboo Face Wipes</span></li>\n</ul>\n<p><span>All wrapped together in a great, reusable tin.</span><span class=\"aam\"> </span></p>",
+        "Vendor": "Ursa Major",
+        "Type": "Accessories",
+        "Tags": "",
+        "Price": 36,
+        "ImageSrc": "/img/product4_1.jpeg",
+        "ImageAltText": "",
+        "ImageGallery": [
+            {
+                "ImageSrc": "/img/product4_1.jpeg",
+                "ImageSrcAltText": "basic-gilet-navy-1"
+            },
+            {
+                "ImageSrc": "/img/product4_2.jpeg",
+                "ImageSrcAltText": "basic-gilet-navy-2"
+            },
+            {
+                "ImageSrc": "/img/product4_3.jpeg",
+                "ImageSrcAltText": "basic-gilet-navy-3"
+            }
+        ]
+    },
+    {
+        "Handle": "the-scout-skincare-kit",
+        "Title": "The Scout Skincare Kit",
+        "Body": "<p><em>This is a demonstration store. You can purchase products like this from <a href=\"http://unitedbyblue.com/\" target=\"_blank\">United By Blue</a>.</em></p><meta charset=\"utf-8\">\n<p><span>A collection of the best Ursa Major has to offer! \"The Scout\" kit contains travel sizes of their best selling skin care items including: </span></p>\n<ul>\n<li><span style=\"line-height: 1.4;\">Face Wash (2 fl oz)</span></li>\n<li><span style=\"line-height: 1.4;\">Shave Cream (2 fl oz)</span></li>\n<li><span style=\"line-height: 1.4;\">Face Balm (0.5 fl oz)</span></li>\n<li><span style=\"line-height: 1.4;\">5 tonic-infused bamboo Face Wipes</span></li>\n</ul>\n<p><span>All wrapped together in a great, reusable tin.</span><span class=\"aam\"> </span></p>",
+        "Vendor": "Ursa Major",
+        "Type": "Accessories",
+        "Tags": "",
+        "Price": 36,
+        "ImageSrc": "/img/product5_1.jpeg",
+        "ImageAltText": "",
+        "ImageGallery": [
+            {
+                "ImageSrc": "/img/product5_1.jpeg",
+                "ImageSrcAltText": "basic-gilet-navy-1"
+            },
+            {
+                "ImageSrc": "/img/product5_2.jpeg",
+                "ImageSrcAltText": "basic-gilet-navy-2"
+            },
+            {
+                "ImageSrc": "/img/product5_3.jpeg",
+                "ImageSrcAltText": "basic-gilet-navy-3"
+            },
+            {
+                "ImageSrc": "/img/product5_4.jpeg",
+                "ImageSrcAltText": "basic-gilet-navy-4"
+            }
+        ]
+    },
+    {
+        "Handle": "the-scout-skincare-kit",
+        "Title": "The Scout Skincare Kit",
+        "Body": "<p><em>This is a demonstration store. You can purchase products like this from <a href=\"http://unitedbyblue.com/\" target=\"_blank\">United By Blue</a>.</em></p><meta charset=\"utf-8\">\n<p><span>A collection of the best Ursa Major has to offer! \"The Scout\" kit contains travel sizes of their best selling skin care items including: </span></p>\n<ul>\n<li><span style=\"line-height: 1.4;\">Face Wash (2 fl oz)</span></li>\n<li><span style=\"line-height: 1.4;\">Shave Cream (2 fl oz)</span></li>\n<li><span style=\"line-height: 1.4;\">Face Balm (0.5 fl oz)</span></li>\n<li><span style=\"line-height: 1.4;\">5 tonic-infused bamboo Face Wipes</span></li>\n</ul>\n<p><span>All wrapped together in a great, reusable tin.</span><span class=\"aam\"> </span></p>",
+        "Vendor": "Ursa Major",
+        "Type": "Accessories",
+        "Tags": "",
+        "Price": 36,
+        "ImageSrc": "/img/product6_1.jpeg",
+        "ImageAltText": "",
+        "ImageGallery": [
+            {
+                "ImageSrc": "/img/product6_1.jpeg",
+                "ImageSrcAltText": "basic-gilet-navy-1"
+            },
+            {
+                "ImageSrc": "/img/product6_2.jpeg",
+                "ImageSrcAltText": "basic-gilet-navy-2"
+            },
+            {
+                "ImageSrc": "/img/product6_3.jpeg",
+                "ImageSrcAltText": "basic-gilet-navy-3"
+            }
+        ]
+    }
+]
