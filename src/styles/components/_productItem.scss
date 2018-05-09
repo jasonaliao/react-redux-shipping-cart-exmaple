@@ -17,11 +17,11 @@
     }
 
     .mainImage{
-        @include transition(opacity .6s ease);
+        @include transition(opacity 1000ms ease);
         opacity:1 ;
     }
     .subImage{
-        @include transition(opacity .6s ease);
+        @include transition(opacity 1000ms ease);
         position: absolute;
         top:0;
         left: 0;
@@ -30,7 +30,7 @@
     }
 
     .product-list-item-details{
-        @include transition(opacity .6s ease);
+        @include transition(opacity 1000ms ease);
         position: absolute;
         top:0;
         left: 0;
