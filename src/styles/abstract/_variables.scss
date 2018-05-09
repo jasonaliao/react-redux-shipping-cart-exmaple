@@ -1,0 +1,35 @@
+/* _variables.scss */
+
+$font-family-base: 'Work Sans', sans-serif !default;
+$font-family-heading: 'Playfair Display', serif !default;
+$font-family-light: 'Playfair Display', serif !default;
+
+$font-size-base: 15px;
+
+$line-height-base: 22/15;
+
+$font-size-logo: 40px !default;
+$font-size-h1: 35px !default;
+$font-size-h2: 26px !default;
+$font-size-h3: 21px !default;
+$font-size-h4: 18px !default;
+$font-size-h1-mobile: 28px !default;
+$font-size-h2-mobile: 22px !default;
+$font-size-h3-mobile: 18px !default;
+$font-size-h4-mobile: 16px !default;
+$font-size-footer: 13px !default;
+
+
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+$screen-xl-min: 1400px;
+$screen-xxl-min: 1600px;
+$screen-xxxl-min: 1800px;
+
+$screen-xs-max: $screen-sm-min - 1px;
+$screen-sm-max: $screen-md-min - 1px;
+$screen-md-max: $screen-lg-min - 1px;
+$screen-lg-max: $screen-xl-min - 1px;
+$screen-xl-max: $screen-xxl-min - 1px;
+$screen-xxl-max: $screen-xxxl-min - 1px;

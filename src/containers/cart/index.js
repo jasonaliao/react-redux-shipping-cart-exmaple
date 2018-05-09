@@ -1,9 +1,10 @@
 import React from 'react';
 
+import CartSummary from '../../componenets/CartSummary';
+
 const CartPage = () => (
-  <div>
-    <h1>Cart Page</h1>
-    <p>Did you get here via Redux?</p>
+  <div className='page'>
+    <CartSummary />
   </div>
 );
 

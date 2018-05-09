@@ -1,0 +1,15 @@
+.mini-cart-wrap {
+    & {
+        text-align: right;
+        line-height: 40 * $line-height-base + px;
+    }
+
+    .fa {
+        padding-left: 0.4rem;
+        font-size: 120%;
+    }
+
+    .mini-cart-item-count {
+        font-size: 80%;
+    }
+}

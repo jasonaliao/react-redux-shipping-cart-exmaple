@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 
 export default class ProductListItem extends Component {
 
-    constructor(props) {
-        super(props);
-    }
-
     render() {
 
         const subImage = this.props.product.ImageGallery ?  (
@@ -16,7 +12,7 @@ export default class ProductListItem extends Component {
         
 
         return (
-            <div className="product-list-item-wrap column is-3">
+            <div className="product-list-item-wrap column is-4">
                 <img className="mainImage" src={this.props.product.ImageSrc} alt={this.props.product.Title} />
                 {subImage}
                 <div className="product-list-item-details">

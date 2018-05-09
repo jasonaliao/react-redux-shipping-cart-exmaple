@@ -1,0 +1,19 @@
+
+@import '../abstract/semantic-colors';
+@import '../abstract/variables';
+
+.top-nav{
+    &{
+        padding-top: .75rem;
+        border-bottom: 1px solid $border-color;
+    }
+
+
+    .logo-wrap{
+        .logo{
+            font-family: $font-family-heading;
+            font-size: $font-size-logo;
+            color: $color-primary;
+        }
+    }
+}

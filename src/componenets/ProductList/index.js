@@ -1,7 +1,6 @@
 import React from 'react';
 import ProductItem from './ProductItem';
 
-import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
 import {
@@ -12,19 +11,17 @@ import {
 function ProductList(props) {
 
     return (
-        <div className="column">
-            {props.cart.length}
-            <div className="columns is-multiline">
-                {
-                    props.products.map((product) => {
-                        return <ProductItem
-                            product={product}
-                            addToCart={props.DispatchAddToCart}
-                            removeFromCart={props.DispatchRemoveFromCart}
-                        />
-                    })
-                }
-            </div>
+        <div className="columns is-multiline">
+            {
+                props.products.map((product) => {
+                    return <ProductItem
+                        key={product.Handle}
+                        product={product}
+                        addToCart={props.DispatchAddToCart}
+                        removeFromCart={props.DispatchRemoveFromCart}
+                    />
+                })
+            }
         </div>
     )
 }

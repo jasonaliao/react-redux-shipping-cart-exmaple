@@ -1,0 +1,43 @@
+@import '../abstract/helper';
+
+.product-list-item-wrap{
+
+    &{
+        position: relative;
+    }
+
+    &:hover{
+        .mainImage{
+            opacity: 0;
+        }
+
+        .subImage, .product-list-item-details{
+            opacity: 1;
+        }
+    }
+
+    .mainImage{
+        @include transition(opacity .6s ease);
+        opacity:1 ;
+    }
+    .subImage{
+        @include transition(opacity .6s ease);
+        position: absolute;
+        top:0;
+        left: 0;
+        opacity: 0;
+        padding: 0.75rem;
+    }
+
+    .product-list-item-details{
+        @include transition(opacity .6s ease);
+        position: absolute;
+        top:0;
+        left: 0;
+        z-index: 2;
+        padding: 2rem;
+        width: 50%;
+        height: 100%;
+        opacity: 0;
+    }
+}

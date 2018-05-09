@@ -1,15 +1,16 @@
 import React from 'react';
-import { Route, Link } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import Home from '../home';
 import CartPage from '../cart';
 import ProductDetails from '../productdetails';
 
+import TopNav from '../../componenets/TopNav';
+import Footer from '../../componenets/Footer';
+
 const App = () => (
-  <div>
+  <div className='container is-fluid'>
     <header>
-      <div className="LogoWrap">
-        <Link to="/" className="Logo">React Store</Link></div>
-      <div className="Topbar"><Link to="/cart">Cart</Link></div>
+      <TopNav />
     </header>
 
     <main>
@@ -17,6 +18,9 @@ const App = () => (
       <Route exact path="/cart" component={CartPage} />
       <Route exact path="/product/:handle" component={ProductDetails} />
     </main>
+    <footer>
+      <Footer />
+    </footer>
   </div>
 );
 

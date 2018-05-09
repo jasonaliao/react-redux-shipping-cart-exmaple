@@ -1,0 +1,85 @@
+.product-collection-menu {
+    ul {
+        li {
+            a.menu-link {
+                cursor: pointer;
+                font-family: "Playfair Display", serif;
+                line-height: 2em;
+            }
+        }
+    }
+
+    .info {
+        & {
+            padding-top: 2rem;
+        }
+
+        & > p {
+            @include transition(color 300ms);
+            cursor: pointer;
+            font-family: "Playfair Display", serif;
+            &:hover{
+                color: #da413d;
+            }
+        }
+
+        .bounce {
+            display: inline-block;
+            padding-left: .2rem;
+            font-weight: bold;
+            @include animation(bounce 1200ms infinite ease-in-out);
+        }
+
+        .more-wrap {
+            padding-top: 1rem;
+
+            & > p {
+                font-size: 0.75rem;
+
+                & > a {
+                    color: #da413d;
+                }
+            }
+
+            & > i {
+                color: $text-color-secondary;
+            }
+        }
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-3px);
+    }
+
+    65% {
+        transform: translateY(0px);
+    }
+
+    80% {
+        transform: translateY(-3px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@-webkit-keyframes bounce {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-3px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}

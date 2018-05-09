@@ -1,0 +1,28 @@
+@import "../abstract/semantic-colors";
+@import "../abstract/variables";
+
+.footer-menu {
+    & {
+        border-top: 1px solid $border-color;
+        margin-top: 2rem;
+        padding: 1rem 0;
+    }
+
+    ul {
+        li {
+            font-family: "Playfair Display", serif;
+            display: inline-block;
+            padding-left: 0.75rem;
+        }
+    }
+
+    & > div {
+        &:last-child {
+            text-align: right;
+        }
+    }
+
+    p.copyright{
+        font-size: .7rem;
+    }
+}

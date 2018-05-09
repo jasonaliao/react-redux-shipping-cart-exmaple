@@ -3,14 +3,16 @@ import React from 'react';
 import ProductList from '../../componenets/ProductList';
 import ProductJson from '../../assets/products_min.json';
 
-import Menu from '../../componenets/Menu'
+import SideMenu from '../../componenets/SideMenu';
 
 const Home = props => (
-  <div className="columns">
-    <div className="column is-one-fifth">
-    <Menu />
+  <div className="page columns">
+    <div className="column">
+      <SideMenu />
     </div>
-    <ProductList products={ProductJson} />
+    <div className="column is-10">
+      <ProductList products={ProductJson} />
+    </div>
 
   </div>
 );

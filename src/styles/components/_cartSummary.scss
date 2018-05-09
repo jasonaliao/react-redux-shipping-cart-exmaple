@@ -1,0 +1,107 @@
+@import "../abstract/helper";
+
+.cart-summary {
+
+    &{
+        padding-top:2rem;
+    }
+
+    .cart-summary-wrap {
+        $base_width: 100%;
+        $summary_width: 30%;
+
+        $base_height: 55vh;
+        $summary_height: 65vh;
+        $gap-height: ($summary_height - $base_height) / 2;
+        $extra-space-x: 5%;
+
+        $slide_animation_duration: 800ms;
+
+        & {
+            overflow: hidden;
+            height: 75vh;
+        }
+
+        & > div {
+            margin-top: $gap-height;
+            width: $base_width;
+        }
+
+        .cart-items-view, .checkout-view {
+            background: $checkout-background-color;
+            height: $base_height;
+        }
+
+        /* Items */
+
+        .cart-items-view{
+            .cart-items-view-inner{
+                padding: 2rem;
+                height: 100%;
+                width: (100% - $summary_width - $extra-space-x );
+            }
+        }
+
+        /* Checkout */
+
+        .checkout-view {
+            display: none;
+
+            .checkout-view-inner{
+                padding: 2rem 2rem 2rem ($summary_width + $extra-space-x + 2%);
+            }
+        }
+
+        /*Summary*/
+        .summary-view {
+            width: $summary_width;
+            height: $summary_height;
+            margin-top: 0;
+            left: ($base_width - $summary_width - $extra-space-x);
+            position: absolute;
+
+            @include transition($slide_animation_duration ease-out);
+
+            .summary-inner {
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                z-index: 2;
+                background: rgba(0, 0, 0, 0.4);
+            }
+
+            &:before {
+                content: '';
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-image: url("/img/background.jpg");
+                z-index: 1;
+                background-position-x: 100%;
+                background-size: auto 100%;
+
+                @include transition(background-position $slide_animation_duration ease-out);
+            }
+        }
+
+        &.active {
+            .cart-items-view {
+                display: none;
+            }
+
+            .checkout-view {
+                display: block;
+            }
+
+            .summary-view {
+                left: 5%;
+
+                &:before {
+                    background-position-x: 0;
+                }
+            }
+        }
+    }
+}
