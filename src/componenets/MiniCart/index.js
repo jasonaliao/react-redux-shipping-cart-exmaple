@@ -6,10 +6,16 @@ import { connect } from 'react-redux';
 class MiniCart extends Component {
 
     render() {
+
+        let _qty = 0;
+        this.props.cart.map((item)=>{
+            return _qty = _qty + item.quantity
+        });
+
         return (
             <div className="mini-cart-wrap">
                 <Link to="/cart">
-                    <span className="mini-cart-item-count">({this.props.cart.length})</span>
+                    <span className="mini-cart-item-count">({_qty})</span>
                     <i className="fa fa-shopping-bag" aria-hidden="true"></i>
                 </Link>
             </div>

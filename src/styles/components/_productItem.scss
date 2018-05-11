@@ -1,43 +1,70 @@
-@import '../abstract/helper';
+@import "../abstract/helper";
 
-.product-list-item-wrap{
-
-    &{
+.product-list-item-wrap {
+    & {
         position: relative;
     }
 
-    &:hover{
-        .mainImage{
+    &:hover {
+        .mainImage {
             opacity: 0;
         }
 
-        .subImage, .product-list-item-details{
+        .subImage, .product-list-item-details {
             opacity: 1;
         }
     }
 
-    .mainImage{
+    .mainImage {
         @include transition(opacity 1000ms ease);
-        opacity:1 ;
+
+        opacity: 1;
     }
-    .subImage{
+
+    .subImage {
         @include transition(opacity 1000ms ease);
+
         position: absolute;
-        top:0;
+        top: 0;
         left: 0;
         opacity: 0;
         padding: 0.75rem;
     }
 
-    .product-list-item-details{
+    .product-list-item-details {
         @include transition(opacity 1000ms ease);
+
         position: absolute;
-        top:0;
-        left: 0;
+        top: 1rem;
+        left: 1rem;
         z-index: 2;
-        padding: 2rem;
+        padding: 0.5rem;
         width: 50%;
-        height: 100%;
         opacity: 0;
+
+        & > button {
+            background: $color-primary;
+            color: $white;
+        }
+    }
+
+    .product-list-item-desc {
+        padding-top: 1rem;
+
+        .add-to-cart-wrap {
+            & {
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+            }
+
+            .add-to-cart{
+                height: 100%;
+                border:none;
+                background: $color-primary;
+                color: $white;
+                padding: 0 2rem;
+            }
+        }
     }
 }
