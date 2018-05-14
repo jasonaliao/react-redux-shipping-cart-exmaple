@@ -67,7 +67,7 @@ export default class CartItem extends Component {
                         <h2>Your Bag</h2>
                     </div>
                     
-                    <div className="column is-3 is-paddingless cart-item-back-to-shop">{backToShopLink}</div>
+                    <div className="column is-6 is-paddingless cart-item-back-to-shop">{backToShopLink}</div>
                 </div>
                 <div className="cart-items-list">
                     {itemList}

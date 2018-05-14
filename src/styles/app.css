@@ -148,7 +148,8 @@ a {
     border: none;
     background: #333333;
     color: #ffffff;
-    padding: 0 2rem; }
+    padding: 0 2rem;
+    cursor: pointer; }
 
 .product-collection-menu ul li a.menu-link {
   cursor: pointer;
