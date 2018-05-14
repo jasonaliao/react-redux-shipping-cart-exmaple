@@ -1,0 +1,44 @@
+.product-search-wrap {
+    display: inline-block;
+    .product-search-wrap-inner {
+        display: flex;
+        line-height: 2rem;
+        margin-left: .5rem;
+
+        &.active {
+            
+            border: 1px solid $border-color;
+            border-radius: 4px;
+
+            .product-search-input-wrap {
+                opacity: 1;
+                width: 100%;
+            }
+
+            .product-search-button {
+                padding-left: .5rem;
+            }
+        }
+
+        .product-search-button {
+            display: inline-block;
+        }
+
+        
+
+        .product-search-input-wrap {
+            @include transition(opacity 400ms ease-in-out);
+
+            display: block;
+            opacity: 0;
+            overflow: hidden;
+            width: 0;
+
+            input {
+                border: none;
+                outline: none;
+                padding: .4rem;
+            }
+        }
+    }
+}

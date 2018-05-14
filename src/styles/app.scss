@@ -1,18 +1,18 @@
+@import "base/scaffolding";
+@import "base/typography";
 
-@import 'base/scaffolding';
-@import 'base/typography';
+@import "layout/topNav";
+@import "layout/main";
+@import "layout/footer";
 
-@import 'layout/topNav';
-@import 'layout/main';
-@import 'layout/footer';
+@import "components/productItem";
+@import "components/productList";
 
-@import 'components/productItem';
-@import 'components/productList';
-
-@import 'components/sideMenu';
-@import 'components/miniCart';
+@import "components/sideMenu";
+@import "components/miniCart";
+@import "components/productSearch";
 
 
-@import 'components/cartSummary';
-@import 'components/cartItem';
-@import 'components/checkOutForm';
+@import "components/cartSummary";
+@import "components/cartItem";
+@import "components/checkOutForm";

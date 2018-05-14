@@ -23,9 +23,6 @@ export default class ProductListItem extends Component {
             <div className="product-list-item-wrap column is-4">
                 <img className="mainImage" src={this.props.product.ImageSrc} alt={this.props.product.Title} />
                 {subImage}
-                <div className="product-list-item-details">
-                    {/* <button className="button" onClick={() => this.setState({ isQuickView: true })}>Quick View</button> */}
-                </div>
 
                 <div className="product-list-item-desc columns">
                     <div className="column is-8">

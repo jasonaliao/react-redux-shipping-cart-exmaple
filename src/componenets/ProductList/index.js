@@ -10,17 +10,22 @@ import {
 
 function ProductList(props) {
 
+    let filteredProduct = props.products.filter(product =>
+        (product.Title.toLowerCase().indexOf(props.shop.SearchQuery.toLowerCase()) > -1) ||
+        (product.Vendor.toLowerCase().indexOf(props.shop.SearchQuery.toLowerCase()) > -1)
+    );
+
     return (
         <div className="columns is-multiline">
             {
-                props.products.map((product) => {
+                filteredProduct.length ? (filteredProduct.map(product => {
                     return <ProductItem
                         key={product.Handle}
                         product={product}
                         addToCart={props.DispatchAddToCart}
                         removeFromCart={props.DispatchRemoveFromCart}
                     />
-                })
+                })) : (<div>No result</div>)
             }
         </div>
     )
@@ -28,7 +33,8 @@ function ProductList(props) {
 
 function mapStateToProps(state) {
     return {
-        cart: state.cart
+        cart: state.cart,
+        shop: state.shop
     }
 };
 
