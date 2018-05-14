@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopNav component should render as expected 1`] = `
+<nav
+  className="top-nav columns"
+>
+  <div
+    className="logo-wrap column is-4"
+  >
+    <Link
+      className="logo"
+      replace={false}
+      to="/"
+    >
+      React Store
+    </Link>
+  </div>
+  <div
+    className="top-nav-controls column"
+  >
+    <Connect(MiniCart) />
+    <Connect(ProductSearch) />
+  </div>
+</nav>
+`;

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 export default class SideMenu extends Component {
 
-    constructor(props){
+    constructor(props) {
         super(props);
 
         this.state = {
@@ -40,7 +40,7 @@ export default class SideMenu extends Component {
                 </ul>
 
                 <div className='info'>
-                    <p onClick={()=> this.setState({displaymore: !this.state.displaymore })} >This is a <i>demo</i> store<span className='bounce'>.</span></p>
+                    <p onClick={() => this.setState({ displaymore: !this.state.displaymore })} >This is a <i>demo</i> store<span className='bounce'>.</span></p>
                     {more}
                 </div>
 
