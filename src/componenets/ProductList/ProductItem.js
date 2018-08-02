@@ -18,9 +18,8 @@ export default class ProductListItem extends Component {
 
         const price = `$${this.props.product.Price.toFixed(2)}`;
 
-
         return (
-            <div className="product-list-item-wrap column is-4">
+            <div className="product-list-item-wrap column is-desktop-4 is-half-mobile">
                 <img className="mainImage" src={this.props.product.ImageSrc} alt={this.props.product.Title} />
                 {subImage}
 

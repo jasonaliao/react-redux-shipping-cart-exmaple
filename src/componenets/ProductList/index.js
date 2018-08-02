@@ -8,25 +8,25 @@ import {
     REMOVEFROMCART
 } from '../../modules/cart';
 
-function ProductList(props) {
+const ProductList = (props) => {
 
     let filteredProduct = props.products.filter(product =>
         (product.Title.toLowerCase().indexOf(props.shop.SearchQuery.toLowerCase()) > -1) ||
         (product.Vendor.toLowerCase().indexOf(props.shop.SearchQuery.toLowerCase()) > -1)
     );
 
+    let renderedProductList = filteredProduct.length ? (filteredProduct.map(product => {
+        return <ProductItem
+            key={product.Handle}
+            product={product}
+            addToCart={props.DispatchAddToCart}
+            removeFromCart={props.DispatchRemoveFromCart}
+        />
+    })) : (<div>No result</div>)
+
     return (
-        <div className="columns is-multiline">
-            {
-                filteredProduct.length ? (filteredProduct.map(product => {
-                    return <ProductItem
-                        key={product.Handle}
-                        product={product}
-                        addToCart={props.DispatchAddToCart}
-                        removeFromCart={props.DispatchRemoveFromCart}
-                    />
-                })) : (<div>No result</div>)
-            }
+        <div className="columns is-multiline is-mobile">
+            {renderedProductList}
         </div>
     )
 }

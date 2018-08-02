@@ -26,7 +26,7 @@ export default class SideMenu extends Component {
         ) : null;
 
         return (
-            <div className="product-collection-menu">
+            <nav className="product-collection-menu">
                 <ul>
                     {
                         collections.map((collection) => {
@@ -44,7 +44,7 @@ export default class SideMenu extends Component {
                     {more}
                 </div>
 
-            </div>
+            </nav>
         );
     };
 }
